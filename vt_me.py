@@ -1,8 +1,9 @@
 import vt 
 from csvv import sha256
 import time
+import os
 a = sha256()
-client = vt.Client("0c3129508a0774cade273706af8fb9491ea77612bd8e478c8e10daf30a44c1e3")
+client = vt.Client(os.environ.get("VT_API_KEY"))
 print('Hangisiyle islem yapmak istiyorusunuz.\n1-Sigcheck csv\n2-Dosya ismi')
 tur = int(input())
 
