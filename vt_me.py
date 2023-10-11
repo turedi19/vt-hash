@@ -39,13 +39,3 @@ else:
 
 
 
-"""print(vtt)
-file = client.get_object("vtt")
-print(file.size)
-print("kljalskj")
-print(file.type_tag)
-print("vvvvvvvvvvvvvv")
-print(file.last_analysis_stats)
-print("vvvvvvvvvvvvvv")
-#a = sha256("snrtt.csv")
-"""
